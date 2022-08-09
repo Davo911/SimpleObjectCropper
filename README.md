@@ -5,11 +5,12 @@ Small script to crop images for photogrammetry purposes
 Python, OpenCV
 
 # Usage
-`python3 Cropper.py <path to folder with jpg/png> [(-f) || (-g)}`
+`python3 Cropper.py <path to folder with jpg/png/tiff> [(-f) || (-g)}`
 
 # Parameters
--f --> Use FloodFill
--g --> Use GrabCut
+-f --> Use FloodFill on Background (Inaccurate, but fast)
+
+-g --> Use GrabCut (Accurate, but slow)
 
 eg.
 python Cropper.py ./ExampleSet/ -g
