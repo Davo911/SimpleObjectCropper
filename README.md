@@ -10,7 +10,7 @@ Python, OpenCV
 # Parameters
 -f --> Use FloodFill on Background (Inaccurate, but fast)
 
--g --> Use GrabCut (Accurate, but slow)
+-g --> Use GrabCut to seperate Fore- & Background (Accurate, but slow)
 
 eg.
 python Cropper.py ./ExampleSet/ -g
